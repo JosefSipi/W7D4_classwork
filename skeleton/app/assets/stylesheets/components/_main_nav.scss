@@ -15,13 +15,8 @@
 }
 
 .left-nav {
-  #search-modal-btn {
-    background-color: rgb(243, 239, 239);
-  }
-}
-.left-nav {
-  #sections-modal-btn {
-    margin-right: 100px;
+  #sections-sidebar-btn {
+    margin-right: 20px;
   }
 }
 .left-nav {
@@ -30,7 +25,7 @@
       display: inline-block;
     }
   }
-
+  
   > span {
     color: black;
     padding: 7px;
@@ -44,16 +39,16 @@
 }
 
 .right-nav  {
-
+  
   > ul {
-
+    
     > li {
       display: inline-block;
       padding-right: 10px;
       // background-color: rgb(111, 111, 184);
     }
     > li:first-of-type {
-      > button {
+      > span {
         font-family: $sans-serif;
         color: white;
         background-color: rgb(36, 36, 136);
@@ -62,7 +57,7 @@
       }
     }
     > li:last-of-type {
-      > button {
+      > span {
         color: white;
         background-color: rgb(80, 80, 139);
         padding: 7px;
@@ -75,10 +70,19 @@
     background-color: rgb(243, 239, 239);
     padding: 7px;
     border-radius: 4px;
+    font-size: 18px;
   }
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-
+  background-color: $lightest-gray;
+  
+}
+.left-nav {
+  #search-modal-btn {
+    background-color: rgb(243, 239, 239);
+    padding-right: 10px;
+    border-radius: 4px;
+  }
 }

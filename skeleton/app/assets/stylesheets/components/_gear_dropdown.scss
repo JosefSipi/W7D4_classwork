@@ -1,1 +1,16 @@
 // Use the gear_dropdown.png screenshot as a style guide
+
+li {
+    position: relative;
+}
+.gear-dropdown {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#dropdown-subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

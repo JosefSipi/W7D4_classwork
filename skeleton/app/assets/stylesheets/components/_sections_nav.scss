@@ -1,0 +1,25 @@
+.sections {
+    border-bottom: 1px solid rgb(211, 207, 207);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    >li{
+        padding: 5px;
+    }
+}
+
+#world-tag:hover {
+    background-color: gray;
+}
+
+#all-tag {
+    font-size: 8px;
+}
+
+#all-tag:hover {
+    text-decoration: underline;
+}

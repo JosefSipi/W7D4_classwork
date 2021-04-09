@@ -3,17 +3,29 @@
 li {
     position: relative;
 }
-.gear-dropdown {
+.gear-dropdown{
+    
     ul.editions {
         > li:hover {
-            background-color: rgb(116, 116, 116);
+            background-color: rgb(226, 226, 226);
+            padding: 5px;
+            border-radius: 5px;
+            color: black;
+            font-weight: normal;
         }
     }
+    color:rgb(119, 115, 115);
+    font-weight: normal;
+    background-color: white;
+    border-radius: 2%;
+    border: 1px;
+    box-shadow: -1px 4px 6px 1px rgba(0, 0, 0, 0.09);
     z-index: 2;
     display: block;
     position: absolute;
     top: 40px;
     right: 8px;
+    padding: 10px;
     align-items: flex-start;
     > li {
         > ul {
@@ -21,7 +33,7 @@ li {
         flex-direction: column;
         align-items: flex-start;
         > li {
-        width: 200px;
+        width: 220px;
         padding-left: 0;
         display: flex;
         flex-direction: column;
@@ -35,22 +47,23 @@ li {
 
 
 
-#ropdown-subtitle > li {
+#dropdown-subtitle > li {
     position: relative;
     align-self: flex-start;
     left: -5px;
 }
 
 
-#dropdown-subtitle  { 
-    
+.dropdown-subtitle  { 
+    font-size: 10px;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 ul.help {
-    color: blue;
+    color: rgb(106, 106, 207);
 }
 
 ul.help {

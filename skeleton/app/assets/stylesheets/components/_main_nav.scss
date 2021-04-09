@@ -75,10 +75,16 @@
   }
 }
 
+#dropdown {
+  display: none; 
+}
+
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
   background-color: $lightest-gray;
-  
+  > #dropdown {
+    display: block; 
+  }
 }
 .left-nav {
   #search-modal-btn {
@@ -87,3 +93,4 @@
     border-radius: 4px;
   }
 }
+
